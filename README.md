@@ -1,3 +1,12 @@
+# Team Tranquility
+
+We are team Tranquility. We are participating in the NASA Space Apps Challenge 2020 in the category [Mission to Planet Earth: A Digital History](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/details)
+
+You can find our team profile on the Space Apps Challenge website [Tranquility](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/teams/tranqulity/project)
+
+
+
+----------------------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

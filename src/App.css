@@ -1,5 +1,6 @@
 :root {
   --cool-green: rgb(24,188,156);
+  --boot-purple: rgb(121,82,179);
   --gray: hsl(197, 10%, 45%);
   --middle-gray: hsl(240, 6%, 92%);
   --light-gray: hsl(240, 6%, 97%);
@@ -33,6 +34,10 @@ body {
   padding: 2.5rem;
 }
 
+nav {
+  background-color: var(--boot-purple);
+}
+
 header {
   background-color: var(--cool-green);
 }
@@ -41,6 +46,36 @@ header {
   margin: 0 2rem;
   width: 800px;
 }
+.navbar {
+  border-radius: 0;
+
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.historyContainer {
+  display: flex;
+  min-height: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+  .historyContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1100px;
+  }
+}
+
+
 .App {
   text-align: center;
 }

@@ -1,7 +1,9 @@
 :root {
+  --cool-green: rgb(24,188,156);
   --gray: hsl(197, 10%, 45%);
   --middle-gray: hsl(240, 6%, 92%);
   --light-gray: hsl(240, 6%, 97%);
+  --light-blue: rgb(220,240,247);
   --accent: hsl(197, 100%, 44%);
   --accent-hover: hsl(197, 100%, 40%);
   --accent-active: hsl(197, 100%, 35%);
@@ -16,6 +18,7 @@
 
 body {
   color: var(--gray);
+  background-color: var(--light-blue);
 }
 
 [data-reach-dialog-overlay] {
@@ -30,11 +33,14 @@ body {
   padding: 2.5rem;
 }
 
+header {
+  background-color: var(--cool-green);
+}
+
 .home {
   margin: 0 2rem;
   width: 800px;
 }
-
 .App {
   text-align: center;
 }
@@ -51,7 +57,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: var(--cool-green);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

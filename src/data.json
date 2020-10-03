@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/biodiversity.svg",
+      "title": "Bio Diversity",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "/assets/ozonedepletion.svg",
+      "title": "Ozone Depletion",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "/assets/ourocean.svg",
+      "title": "Our Ocean",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "/assets/icyartic.svg",
+      "title": "The Icy Artic",
+      "clicked": false
+    }
+  ]
+  

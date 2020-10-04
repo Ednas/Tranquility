@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tranquility/precache-manifest.17db22feb9943d94bbb993177dc7ecb2.js"
+  "/Tranquility/precache-manifest.b01aca2b0128995e082e9360e6204337.js"
 );
 
 self.addEventListener('message', (event) => {

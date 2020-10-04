@@ -1,9 +1,29 @@
 import React from "react";
 
 function SideNav(props) {
-  return <nav className="sideNav">{props.children}
-  Nav
-  </nav>;
+console.log(props.navigation.length)
+
+
+    
+    return (           
+        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+     
+        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false" href={props.key}>{props.navigation}</a>
+ </div>
+  )
+    
 }
 
 export default SideNav;
+// key={item.id}
+// id={item.id}
+// link={item.link}
+// title={item.title}
+// image={item.image}
+{/* <div
+                            role="img"
+                            aria-label="click item"
+                            // onClick={() => props.handleClick(props.id)}
+                            style={{ backgroundImage: `url("${props.image}")` }}
+                            className={`history-item${props.shake ? " shake" : ""}`}
+                        /> */}

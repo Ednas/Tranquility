@@ -1,9 +1,10 @@
 import React from "react";
+import QuizContainer from './Quiz'
 
 function RightContainer(props) {
-  return <main className="right">{props.children}
-  Right Container
-  </main>;
+  return <aside className="right">{props.children}
+ <QuizContainer />
+  </aside>;
 }
 
 export default RightContainer;

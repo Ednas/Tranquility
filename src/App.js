@@ -5,6 +5,11 @@ import {
   Switch, Route
 } from "react-router-dom";
 import EdPageContainer from "./Education/EdPageContainer";
+import Biodiversity from './Education/Biodiversity';
+import Arctic from './Education/Arctic';
+import Ocean from './Education/Ocean';
+import Ozone from './Education/Ozone';
+
 import './App.css';
 
 function App() {
@@ -12,10 +17,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route exact path="/biodiversity" component={EdPageContainer} />
-          <Route exact path="/ozonedepletion" component={EdPageContainer} />
-          <Route exact path="/icyartic" component={EdPageContainer} />
-          <Route exact path="/ourocean" component={EdPageContainer} />
+          <Route exact path="/biodiversity" component={Biodiversity} />
+          <Route exact path="/ozonedepletion" component={Ozone} />
+          <Route exact path="/icyartic" component={Arctic} />
+          <Route exact path="/ourocean" component={Ocean} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>

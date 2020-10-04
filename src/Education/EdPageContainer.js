@@ -47,34 +47,24 @@ class EdPageContainer extends Component {
 
         return (
             <div className="row edPage">
-
-            
-           
-
-                            {this.state.currentPageData.map(item => (
-                                <SideNav
-                                    key={item.id}
-                                    id={item.id}
-                                    navigation={item.navigation}
-                                />
-                            ))}
-              
-               
-        
+                {this.state.currentPageData.map(item => (
+                    <SideNav
+                        key={item.id}
+                        id={item.id}
+                        navigation={item.navigation}
+                    />
+                ))}
                 <div className="col-md-6">
-
                     <h1>
                         {this.state.currentPageData[0].title}
                     </h1>
-
                     <img src={this.state.currentPageData[0].image} className="ed-logo" alt="logo" />
-                                <p>{this.state.currentPageData[0].edutext}</p>
+                        <p>{this.state.currentPageData[0].edutext}</p>
                 </div>
 
                
                 <div className="col-md-4 edNav">
                     <RightContainer />
-                   
                 </div>
             </div>
         )

@@ -1,0 +1,11 @@
+[
+    {
+        "id": 4,
+        "image": "/assets/icyartic.svg",
+        "title": "The Icy Artic",
+        "link": "icyartic",
+        "clicked": false,
+        "navigation": ["What is the Icy Arctic", "Changes in the Arctic", "How is NASA monitoring changes in the Arctic"],
+        "edutext": []
+      }
+]

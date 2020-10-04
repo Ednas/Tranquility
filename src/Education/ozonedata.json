@@ -1,0 +1,11 @@
+[
+    {
+        "id": 2,
+        "image": "/assets/ozonedepletion.svg",
+        "title": "Ozone Depletion",
+        "link": "ozonedepletion",
+        "clicked": false,
+        "navigation": ["What is Ozone Depletion?", "Steps on reducing carbon footprint", "How has NASA research helped with reducing ozone depletion"],
+        "edutext": []
+      }
+]

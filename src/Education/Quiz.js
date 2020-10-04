@@ -1,6 +1,5 @@
 import React from "react";
 import Quiz from 'react-quiz-component';
-// "https://dummyimage.com/600x400/000/fff&text=X"
 
 const quiz =  {
     "quizTitle": "Biodiversity Quiz",

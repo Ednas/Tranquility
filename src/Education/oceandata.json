@@ -1,0 +1,11 @@
+[
+    {
+        "id": 3,
+        "image": "/assets/ourocean.svg",
+        "title": "Our Ocean",
+        "link": "ourocean",
+        "clicked": false,
+        "navigation": ["Overview of our oceans", "Changes in our oceans", "How NASA has helped with our understanding of the oceans"],
+        "edutext": []
+      }
+]

@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-// import logo from '../globe.svg';
 import RightContainer from './RightContainer'
 import SideNav from './SideNav';
 
@@ -8,7 +7,9 @@ import data from "./oceandata.json";
 
 class Ocean extends Component {
     state = {
-        data
+        data,
+        nav: 0,
+        text: 0
     };
 
     // TODO refactor state
@@ -16,12 +17,7 @@ class Ocean extends Component {
         this.setState(this.state.data);
     }
 
-
-    // export default function () {
     render() {
-        console.log(this.state.data);
-
-
         return (
             <div className="row edPage">
                 {this.state.data.map(item => (
@@ -29,6 +25,7 @@ class Ocean extends Component {
                         key={item.id}
                         id={item.id}
                         navigation={item.navigation}
+                        activenav={this.state.nav}
                     />
                 ))}
                 <div className="col-md-6">
@@ -36,9 +33,12 @@ class Ocean extends Component {
                         {this.state.data[0].title}
                     </h1>
                     <img src={this.state.data[0].image} className="ed-logo" alt="logo" />
-                        <p>{this.state.data[0].edutext}</p>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text" id="text">{this.state.data[0].edutext[this.state.text]}</p>
+                        </div>
+                    </div>
                 </div>
-
                
                 <div className="col-md-4 edNav">
                     <RightContainer />

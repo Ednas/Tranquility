@@ -6,6 +6,9 @@
         "link": "ozonedepletion",
         "clicked": false,
         "navigation": ["What is Ozone Depletion?", "Steps on reducing carbon footprint", "How has NASA research helped with reducing ozone depletion"],
-        "edutext": []
+        "edutext": [
+            "Ozone depletion is the thinning of the Earth’s ozone layer. The ozone layer exists in the upper atmosphere. The ozone layer is important because it protects the Earth from harmful levels of ultraviolet (UV) radiation which increases the rate of skin cancer, eye cataracts, and genetic and immune system damage. Ozone depletion is caused by the release of chemical compounds containing gaseous chlorine or bromine from industry and other human activities. It is worst in the polar regions, especially over Antarctica. The Antarctic hole in ozone layer discovered in 1974 made worldwide news in 1985 when three scientists from the British Antarctic Survey announced their detection of abnormally low levels of ozone over the South Pole.",
+            "In 1987, to address the destruction of the ozone layer, the international community established the Montreal Protocol on ozone-depleting substances. It was the first international treaty to be signed by all countries of the world and is considered the greatest environmental success story in the history of the United Nations. Global consumption of ozone-depleting substances has been reduced by some 98% since countries began taking action under the Montreal Protocol. As a result, the atmospheric concentration of the most aggressive types of ozone-depleting substances is falling and the ozone layer is showing the first signs of recovery. In 1990, Congress amended the Clean Air Act with Title VI, with provisions for protecting the ozone layer. This also ensured the United States' commitment to implementing the Montreal Protocol."
+        ]
       }
 ]

@@ -6,6 +6,10 @@
         "link": "ourocean",
         "clicked": false,
         "navigation": ["Overview of our oceans", "Changes in our oceans", "How NASA has helped with our understanding of the oceans"],
-        "edutext": []
+        "edutext": [
+            "Approximately 70% of Earth’s surface is covered by ocean water. The vast ocean holds roughly 97% of the planet’s water and represents 99% of the living space on Earth. Below the surface, the ocean is teeming with life; in fact, most of our planet’s lifeforms live in the ocean, from tiny microscopic organisms to the enormous blue whale—the largest known animal on Earth",
+        "The ocean’s physical (e.g., temperature), chemical (e.g., nutrients, salinity), and biological (e.g., living organisms) components are in a constant state of flux and interact with one another in different ways. Such interactions structure marine ecosystems and influence Earth’s weather and climate; they also have an impact on the global carbon cycle. Without Earth’s ocean, our planet would be uninhabitable. Changes to the ocean are accelerating at an alarming rate. The ocean is getting warmer with 10 of the last 12 years among the warmest ever measured. Acidity in the ocean, which is caused by absorption of C02 from the atmosphere, has increased 30% since the beginning of the Industrial Revolution. In addition to higher amounts of CO2 being absorbed by the upper ocean, historical data show that North Atlantic sub-tropical surface waters have become saltier in the last 40 years, while sub-polar North Atlantic deeper waters have become less salty.",
+        "NASA can measure these properties of the ocean using remote sensing from satellites. NASA has been observing Earth’s ocean from space for more than 38 years, beginning with the launch of the first civilian oceanographic satellite, Seasat, on January 28, 1978. Today, there are several ocean-observing satellite and airborne missions that measure a variety of parameters including ocean surface topography, currents, waves, winds, phytoplankton content, dissolved and suspended organic matter, sea-ice extent, rainfall, sunlight reaching the sea, and sea surface temperature and salinity"
+        ]
       }
 ]

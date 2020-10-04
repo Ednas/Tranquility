@@ -8,7 +8,9 @@ import data from "./arcticdata.json";
 
 class Arctic extends Component {
     state = {
-        data
+        data,
+        nav: 0,
+        text: 0
     };
 
     // TODO refactor state
@@ -19,9 +21,6 @@ class Arctic extends Component {
 
     // export default function () {
     render() {
-        console.log(this.state.data);
-
-
         return (
             <div className="row edPage">
                 {this.state.data.map(item => (
@@ -36,7 +35,11 @@ class Arctic extends Component {
                         {this.state.data[0].title}
                     </h1>
                     <img src={this.state.data[0].image} className="ed-logo" alt="logo" />
-                        <p>{this.state.data[0].edutext}</p>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text" id="text">{this.state.data[0].edutext[this.state.text]}</p>
+                        </div>
+                    </div>
                 </div>
 
                

@@ -163,6 +163,11 @@ header {
   margin: 10px -5px;
 } */
 
+#text {
+  color: black;
+  text-align: left;
+}
+
 .history-item {
   background-size: cover;
   background-position: center;

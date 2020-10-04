@@ -8,8 +8,16 @@ import data from "./biodata.json";
 
 class Biodiversity extends Component {
     state = {
-        data
+        data,
+        nav: 0,
+        text: 0
     };
+
+    handleChange(e) {
+        alert("Clicked")
+        console.log(e.target.value)
+        this.setState({nav: e.target.value});
+      }
 
     // TODO refactor state
     componentDidMount() {
@@ -19,9 +27,6 @@ class Biodiversity extends Component {
 
     // export default function () {
     render() {
-        console.log(this.state.data);
-
-
         return (
             <div className="row edPage">
                 {this.state.data.map(item => (
@@ -29,6 +34,7 @@ class Biodiversity extends Component {
                         key={item.id}
                         id={item.id}
                         navigation={item.navigation}
+                        onClick={this.handleChange} 
                     />
                 ))}
                 <div className="col-md-6">
@@ -36,10 +42,12 @@ class Biodiversity extends Component {
                         {this.state.data[0].title}
                     </h1>
                     <img src={this.state.data[0].image} className="ed-logo" alt="logo" />
-                        <p>{this.state.data[0].edutext}</p>
+                    <div className="card">
+                        <div className="card-body">
+                            <p className="card-text" id="text">{this.state.data[0].edutext[this.state.text]}</p>
+                        </div>
+                    </div>
                 </div>
-
-               
                 <div className="col-md-4 edNav">
                     <RightContainer />
                 </div>

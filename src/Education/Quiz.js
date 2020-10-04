@@ -23,66 +23,22 @@ const quiz =  {
         "explanation": "Biological diversity, or biodiversity, refers to the variety of all life on Earth—on all levels, from genes to species, ecosystems, and biomes.",
         "point": "20"
       },
-      // {
-      //   "question": "ReactJS is developed by _____?",
-      //   "questionType": "text",
-      //   "answerSelectionType": "single",
-      //   "answers": [
-      //     "Google Engineers",
-      //     "Facebook Engineers"
-      //   ],
-      //   "correctAnswer": "2",
-      //   "messageForCorrectAnswer": "Correct answer. Good job.",
-      //   "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      //   "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      //   "point": "20"
-      // },
-      // {
-      //   "question": "ReactJS is an MVC based framework?",
-      //   "questionType": "text",
-      //   "answerSelectionType": "single",
-      //   "answers": [
-      //     "True",
-      //     "False"
-      //   ],
-      //   "correctAnswer": "2",
-      //   "messageForCorrectAnswer": "Correct answer. Good job.",
-      //   "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      //   "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      //   "point": "10"
-      // },
-      // {
-      //   "question": "Which of the following concepts is/are key to ReactJS?",
-      //   "questionType": "text",
-      //   "answerSelectionType": "single",
-      //   "answers": [
-      //     "Component-oriented design",
-      //     "Event delegation model",
-      //     "Both of the above",
-      //   ],
-      //   "correctAnswer": "3",
-      //   "messageForCorrectAnswer": "Correct answer. Good job.",
-      //   "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      //   "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      //   "point": "30"
-      // },
-      // {
-      //   "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
-      //   "questionType": "photo",
-      //   "answerSelectionType": "single",
-      //   "answers": [
-      //     "https://dummyimage.com/600x400/000/fff&text=A",
-      //     "https://dummyimage.com/600x400/000/fff&text=B",
-      //     "https://dummyimage.com/600x400/000/fff&text=C",
-      //     "https://dummyimage.com/600x400/000/fff&text=D"
-      //   ],
-      //   "correctAnswer": "1",
-      //   "messageForCorrectAnswer": "Correct answer. Good job.",
-      //   "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-      //   "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      //   "point": "20"
-      // },
-
+      {
+        "question": " The Amazon Rainforest alone accounts for rouchly what percentage of all known species!",
+        "questionType": "text",
+        "questionPic": "./assets/amazon.jpg",
+        "answerSelectionType": "single",
+        "answers": [
+          "16%",
+          "10%",
+          "5%"
+        ],
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Correct answer. Good job.",
+        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
+        "explanation": "The Amazon Rainforest alone accounts for about 10% of all known species! ",
+        "point": "20"
+      },
     ]
   } 
 

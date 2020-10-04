@@ -48,7 +48,7 @@ class EdPageContainer extends Component {
         return (
             <div className="row edPage">
 
-                <div className="col-md-2 edNav">
+            
            
 
                             {this.state.currentPageData.map(item => (
@@ -58,7 +58,7 @@ class EdPageContainer extends Component {
                                     navigation={item.navigation}
                                 />
                             ))}
-                        </div>
+              
                
         
                 <div className="col-md-6">

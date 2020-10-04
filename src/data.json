@@ -3,24 +3,28 @@
       "id": 1,
       "image": "/assets/biodiversity.svg",
       "title": "Bio Diversity",
+      "link": "biodiversity",
       "clicked": false
     },
     {
       "id": 2,
       "image": "/assets/ozonedepletion.svg",
       "title": "Ozone Depletion",
+      "link": "ozonedepletion",
       "clicked": false
     },
     {
       "id": 3,
       "image": "/assets/ourocean.svg",
       "title": "Our Ocean",
+      "link": "ourocean",
       "clicked": false
     },
     {
       "id": 4,
       "image": "/assets/icyartic.svg",
       "title": "The Icy Artic",
+      "link": "icyartic",
       "clicked": false
     }
   ]

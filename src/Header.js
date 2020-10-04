@@ -35,7 +35,7 @@ class Header extends Component {
   render() {
     return (
         
-      <nav className="navbar navbar-expand-lg  mb-2">
+      <nav className="navbar navbar-expand-lg">
           <div className="container">
           <Router>
         <Link className="navbar-brand" to="/">

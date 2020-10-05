@@ -63,7 +63,7 @@ class Header extends Component {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item ml-4">
               <Link
                 onClick={this.toggleNav}
                 className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}

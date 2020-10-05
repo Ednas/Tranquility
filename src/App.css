@@ -60,7 +60,11 @@ header {
 }
 
 .edNav {
+  padding-top: 5rem;
   background-color: #5856bf;
+}
+.middle {
+  padding-top: 2rem;
 }
 
 .edPage {
@@ -122,6 +126,7 @@ header {
 .ed-logo {
   height: 40vmin;
   pointer-events: none;
+  fill: #56bcbf;
 }
 
 @media (prefers-reduced-motion: no-preference) {

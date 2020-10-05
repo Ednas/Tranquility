@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import RightContainer from './RightContainer'
+import OceanQuizContainer from './OceanQuiz'
 
 
 import data from "./oceandata.json";
@@ -46,7 +46,7 @@ class Ocean extends Component {
                     </div>
                 ))}
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 middle">
                     <h1>
                         {this.state.data[0].title}
                     </h1>
@@ -59,7 +59,9 @@ class Ocean extends Component {
                 </div>
                
                 <div className="col-md-4 edNav">
-                    <RightContainer />
+                    <aside className="right">
+                        <OceanQuizContainer />
+                    </aside>
                 </div>
             </div>
         )

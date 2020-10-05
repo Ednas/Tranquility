@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import RightContainer from './RightContainer'
+import OzoneQuizContainer from './OzoneQuiz'
 
 
 import data from "./ozonedata.json";
@@ -45,7 +45,7 @@ class Ozone extends Component {
                     </div>
                 ))}
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 middle">
                     <h1>
                         {this.state.data[0].title}
                     </h1>
@@ -59,7 +59,9 @@ class Ozone extends Component {
 
                
                 <div className="col-md-4 edNav">
-                    <RightContainer />
+                    <aside className="right">
+                        <OzoneQuizContainer />
+                    </aside>
                 </div>
             </div>
         )

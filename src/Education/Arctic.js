@@ -46,7 +46,7 @@ class Arctic extends Component {
                     </div>
                 ))}
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 middle">
                     <h1>
                         {this.state.data[0].title}
                     </h1>

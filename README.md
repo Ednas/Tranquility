@@ -13,9 +13,8 @@ You can find our team profile on the Space Apps Challenge website [Tranquility](
 
 This project was conceived during the NASA Space Apps Challenge 2020. During a pandemic, this project was a fun and exciting distraction from what's happening in the world and an opportunity to do some good. The challenge ran from October 3rd at 9am until 11:59pm on October 4th. Here is a quick overview of the project.
 
-[![Video Overview](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg)](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg "Video")
+[![Video Overview](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg)](https://youtu.be/JrlvbW1Io-o "Video")
 
-![Video Overview](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg)
 
 
 

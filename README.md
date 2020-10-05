@@ -1,13 +1,26 @@
 # Team Tranquility
 
-We are team Tranquility. We are participating in the NASA Space Apps Challenge 2020 in the category [Mission to Planet Earth: A Digital History](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/details)
+We are team Tranquility. We are participating in the NASA Space Apps Challenge 2020 in the category ***[Mission to Planet Earth: A Digital History](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/details)***
 
-You can find our team profile on the Space Apps Challenge website [Tranquility](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/teams/tranqulity/project)
+## Challenge Projected entered
+
+> ### Mission to Planet Earth: A Digital History
+> NASA’s activities in space have brought new knowledge of the Earth, inspiring new ways of thinking about humanity and the planet. However, many people aren’t aware that NASA studies the Earth in addition to other planets. Your challenge is to tell stories of NASA’s Earth science enterprise using interactive digital tools. This will test your technical skills and your ability to think like a historian or educator.
+
+You can find our team profile on the Space Apps Challenge website [Tranquility](https://2020.spaceappschallenge.org/challenges/inform/mission-planet-earth-digital-history/teams/tranquility/project)
+
+## About
+
+This project was conceived during the NASA Space Apps Challenge 2020. During a pandemic, this project was a fun and exciting distraction from what's happening in the world and an opportunity to do some good. The challenge ran from October 3rd at 9am until 11:59pm on October 4th. Here is a quick overview of the project.
+
+[![Video Overview](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg)](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg "Video")
+
+![Video Overview](http://img.youtube.com/vi/JrlvbW1Io-o/0.jpg)
 
 
 
-----------------------
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
@@ -75,3 +88,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+----------------------
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

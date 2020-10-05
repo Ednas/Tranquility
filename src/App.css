@@ -162,7 +162,9 @@ header {
   height: 370px;
   margin: 10px -5px;
 } */
-
+.nav-link {
+  background-color: var(--nice-green);
+}
 #text {
   color: black;
   text-align: left;

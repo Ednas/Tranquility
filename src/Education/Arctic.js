@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 // import logo from '../globe.svg';
-import RightContainer from './RightContainer'
+import ArcticQuizContainer from './arcticQuiz'
 
 
 import data from "./arcticdata.json";
@@ -60,7 +60,9 @@ class Arctic extends Component {
 
                
                 <div className="col-md-4 edNav">
-                    <RightContainer />
+                    <aside className="right">
+                        <ArcticQuizContainer />
+                    </aside>
                 </div>
             </div>
         )

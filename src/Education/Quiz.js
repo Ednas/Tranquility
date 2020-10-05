@@ -8,7 +8,7 @@ const quiz =  {
       {
         "question": "What does biodiversity refer to?",
         "questionType": "text",
-        "questionPic": "./assets/butterfly.jpg", // if you need to display Picture in Question
+        "questionPic": "./assets/butterfly.jpg", //  display Picture in Question
         "answerSelectionType": "single",
         "answers": [
           "Animals",

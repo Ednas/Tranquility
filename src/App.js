@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   Switch, Route
 } from "react-router-dom";
-import EdPageContainer from "./Education/EdPageContainer";
+// import EdPageContainer from "./Education/EdPageContainer";
 import Biodiversity from './Education/Biodiversity';
 import Arctic from './Education/Arctic';
 import Ocean from './Education/Ocean';

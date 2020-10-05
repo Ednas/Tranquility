@@ -1,17 +1,27 @@
 import React, { Component } from "react"
 import RightContainer from './RightContainer'
-import SideNav from './SideNav';
 
 
 import data from "./ozonedata.json";
 
 class Ozone extends Component {
-    state = {
-        data,
-        nav: 0,
-        text: 0
-    };
+    constructor(props) {
+        super(props);
+        this.state =  {
+            data,
+            nav: 0,
+            text: 0
+        };
+        this.handleClick = this.handleClick.bind(this);
+      }
+  
 
+    handleClick(id, e) {
+        e.preventDefault();
+        this.setState(() => ({
+            text: id
+          }));
+      }
     // TODO refactor state
     componentDidMount() {
         this.setState(this.state.data);
@@ -20,13 +30,21 @@ class Ozone extends Component {
     render() {
         return (
             <div className="row edPage">
-                {this.state.data.map(item => (
-                    <SideNav
-                        key={item.id}
-                        id={item.id}
-                        navigation={item.navigation}
-                    />
+                <div className="col-md-2 edNav">
+                {this.state.data[0].navigation.map(item => (
+                    <div key={item.id} className="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                               <button 
+                                    onClick={(e) => this.handleClick(item.id, e)}
+                                    className="nav-link" 
+                                    id="v-pills-profile-tab"  
+                                    role="tab" aria-controls="v-pills-profile" 
+                                    aria-selected="false" 
+                                    value="0" >
+                                   {item.nav}
+                           </button>
+                    </div>
                 ))}
+                </div>
                 <div className="col-md-6">
                     <h1>
                         {this.state.data[0].title}

@@ -5,10 +5,13 @@
         "title": "Bio Diversity",
         "link": "biodiversity",
         "clicked": false,
-        "navigation": [
-            "What is biodiversity",
-            "Examples of biodiversity",
-            "How has NASA researched or helped with biodiversity"
+        "navigation": [{
+            "nav": "What is biodiversity", "id": 0
+        }, {
+            "nav":  "Examples of biodiversity", "id": 1
+        }, {
+            "nav": "How has NASA researched or helped with biodiversity", "id": 2
+        }  
         ],
         "edutext": [
             "Biological diversity, or biodiversity, refers to the variety of all life on Earth—on all levels, from genes to species, ecosystems, and biomes. While it is believed that Earth supports approximately 3 to 10 million species, only about 1.5 million have been given a scientific name. Even in the sparsest ecologies (think deserts!) which are considered low areas for biodiversity, there are an amazingly diverse range of animal and plant species. On the other end of the scale, tropical rainforests represent some of the most biodiverse areas on Earth. The Amazon Rainforest alone accounts for about 10% of all known species! Further Reading Biodiversity & Ecological Forecasting",

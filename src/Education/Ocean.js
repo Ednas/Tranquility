@@ -56,6 +56,9 @@ class Ocean extends Component {
                             <p className="card-text" id="text">{this.state.data[0].edutext[this.state.text]}</p>
                         </div>
                     </div>
+                    <div className="source">
+                        <a href={this.state.data[0].source[this.state.text]}>{this.state.data[0].source[this.state.text]}</a>
+                    </div>
                 </div>
                
                 <div className="col-md-4 edNav">

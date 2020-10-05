@@ -55,6 +55,9 @@ class Ozone extends Component {
                             <p className="card-text" id="text">{this.state.data[0].edutext[this.state.text]}</p>
                         </div>
                     </div>
+                    <div className="source">
+                        <a href={this.state.data[0].source[this.state.text]}>{this.state.data[0].source[this.state.text]}</a>
+                    </div>
                 </div>
 
                
